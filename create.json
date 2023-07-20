@@ -1,0 +1,13 @@
+request
+{
+    "name": "Kihsore",
+    "job": "leader"
+}
+
+response
+{
+    "name": "Kihsore",
+    "job": "leader",
+    "id": "648",
+    "createdAt": "2023-07-20T08:53:33.048Z"
+}
