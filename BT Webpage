@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style>
+    .dis{
+      display: flex;
+    }
+  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav style="background-color: rgb(145, 235, 0);" class="navbar navbar-expand-lg ">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="http://127.0.0.1:5500/Registrationform.html">Registration</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link" href="http://127.0.0.1:5500/loginform.html">Login</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link" href="http://127.0.0.1:5500/loginform%20copy.html">Contact Us</a>
+              </li>
+        
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+</body>
+<body>
+  <div id="carouselExample" class="carousel slide">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://e0.pxfuel.com/wallpapers/251/743/desktop-wallpaper-university-student-male-and-female-college-students.jpg" class="d-block w-100" alt="img is open" height="550">
+      </div>
+      <div class="carousel-item">
+        <img src="https://img.freepik.com/premium-photo/group-college-students-library_488220-36228.jpg?w=1380" class="d-block w-100" alt="img is not open" height="550">
+      </div>
+      <div class="carousel-item">
+        <img src="https://img.freepik.com/premium-photo/cheerful-college-students-with-bags-books-park_13339-219046.jpg?w=1380" class="d-block w-100" alt=" img is not open" height="550">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <div>
+    <h1>Admission are open</h1>
+  </div>
+  <div>
+    <div class="card" style="width: 18rem; display: flex;">
+      <div class="card-body">
+        <h5 class="card-title">Vignan</h5>
+        <h6 class="card-subtitle mb-2 text-body-secondary">College details</h6>
+        <p class="card-text">You can check the our website click the below the link.</p>
+        <a href="https://vignanits.ac.in/" class="card-link">Link 1</a>
+        <a href="https://collegedunia.com/college/24601-vignan-institute-of-technology-and-science-vits-hyderabad" class="card-link">Link 2</a>
+      </div>
+    </div>
+  </div>
+  <div style="display: flex;">
+    <h2 style="margin-right: 400px;">B.tech</h2>
+    <h2 style="margin-right: 400px;" >M.tech</h2>
+    <h2>MCA</h2>
+  </div>
+  <div style="display: flex; margin-bottom: 30px;">
+    <img src="https://www.yesgermany.com/wp-content/uploads/2023/05/WhatsApp-Image-2023-05-08-at-16.09.18-1.jpeg" height="180px" width="300px">
+    <img src="https://static.javatpoint.com/fullformpages/images/m-tech-full-form.png" height="180px" width="300px" style="margin-left: 100px;">
+    <img src="https://www.jaroeducation.com/wp-content/uploads/2023/02/15-Skills-To-Advance-Your-Career-in-MCA.jpg.webp" height="180px" width="300px" style="margin-left: 100px;">
+  </div>
+  
+    <div style="background-color:rgb(13, 216, 216); text-align: center; height: 189px; border-radius: 30vh;">
+   <h5>Address</h5>
+   <h3>Vignan College</h3>
+   <h5>Conact NO: 0891-783628</h5>
+   <h5>Email:- vignancollege23@gmail.com</h5>
+   <a href="https://in.linkedin.com">LinkedIn</a>
+   <a href="https://www.instagram.com">Instagram</a>
+  
+  </div>
+
+</body>
+</html>
