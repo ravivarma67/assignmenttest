@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+    .ravi{
+        background-color: red;
+        margin: 100px;
+        padding: 10px;
+    }
+    .varma{
+        background-color: green;
+        margin: 100px;
+        padding: 10px;
+    }
+    .mamu{
+        background-color: yellowgreen;
+        margin-left:500px;
+        padding: 10px;
+    }
+</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<body class="kam">
+    <div>
+    <p class="ravi" >Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit, veniam soluta! Quod ipsum sunt corporis reprehenderi
+         eos quis possimus similique dolor. Distinctio aperiam esse vel praesentium hic fuga ullam numquam.
+    </p>
+</div>
+    <p class="varma">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus numquam, 
+    explicabo, nobis illo recusandae cum, neque 
+    autem cupiditate laborum fuga excepturi nemo hic suscipit porro 
+    voluptas maiores? Aut, sequi nostrum.</p>
+</body>
+</html>
