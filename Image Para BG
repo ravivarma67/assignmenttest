@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        .line1{
+            background-color: red;
+            height: 31vh;
+            width: 20vw;
+        }
+        .line2{
+            background-color: green;
+            height: 31vh;
+            width: 20vw;
+        }
+        .line3{
+            background-color: violet;
+            height: 31vh;
+            width: 20vw;
+        }
+    </style>
+</head>
+<body>
+    <html>
+        <body>
+          <table border="5px">
+           <tr>
+               <th>Work1</th>
+               <th>Work2</th>
+               <th>Work3</th>
+           </tr>
+        
+            <td><img height="200" src="https://images.pexels.com/photos/1433052/pexels-photo-1433052.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" width="267"></td>
+           
+               <td><img height="200" src="https://images.pexels.com/photos/1775862/pexels-photo-1775862.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" width="267"></td>
+           
+               <td><img height="200" src="https://images.pexels.com/photos/1563355/pexels-photo-1563355.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" width="267"></td>
+          <tr>
+                <td><p>About 70% of the world is covered by water, and 97% of this water lies in the oceans and seas. The oceans have a major effect upon the weather, and they moderate the world’s climate. For example, water absorbs the Sun’s heat near the equator and surface currents distribute it around the earth warming the </p></td>
+                <td><p>The sun is the largest star in our solar system. It is present in the centre of the earth and the planets orbit around the sun. The sun is spherical in shape and scientists state that it contains a mass of hot plasma. It is essential for our planet earth as it gives us the energy which we require for the existence of life.</p></td>
+                <td><p>Nature refers to the interaction between the physical surroundings around us and the life within it like atmosphere, climate, natural resources, ecosystem, flora, fauna, and humans. Nature is indeed God’s precious gift to Earth. It is the primary source of all the necessities for the nourishment of all living beings on Earth</p></td>
+          </tr>    
+          <tr>
+           <td class="line1"></td>
+           <td class="line2"></td>
+           <td class="line3"></td>
+          </tr>
+       </table>
+        </body>
+       </html>
+</body>
+</html>
