@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+</head>
+<body>
+    <h3>Loops and Arrays</h3>
+    <p id="run"></p>
+    <script>
+        const cars=["BENZ","BMW","AUDI","FERRARI","LAMBORGINI"];
+        let file="";
+        for(let i=0;i<cars.length;i++){
+            file += cars[i]+ "<br>";
+        }
+        document.getElementById("run").innerHTML=file;
+    </script>
+</body>
+</html>
