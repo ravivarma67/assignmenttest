@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function validateForm() {
+  let x = document.forms["myForm"]["fname"].value;
+  if (x == "") {
+    alert("Name must be filled out");
+    return false;
+  }
+}
+</script>
+</head>
+<body style="background-color: aquamarine;">
+
+<h2 style="text-align: center;">JavaScript Login</h2>
+
+<form name="myForm" onsubmit="return validateForm()" method="post" style="text-align: center;">
+  Name: <input type="text"  placeholder="name">
+</form>
+<form name="myForm" onsubmit="return validateForm()" method="post" style="text-align: center;">
+    Password: <input type="password" name="fname" placeholder="password"> <br>
+    <input type="submit" value="Submit">
+  </form>
+</body>
+</html>
