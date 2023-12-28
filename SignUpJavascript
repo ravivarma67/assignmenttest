@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Signup Page</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    form {
+      max-width: 400px;
+      margin: 50px auto;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 8px;
+    }
+
+    input {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 16px;
+    }
+
+    button {
+      padding: 10px;
+      background-color: #ac4caf;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #45a049;
+    }
+
+    .error {
+      color: red;
+    }
+  </style>
+</head>
+<body>
+
+<form id="signupForm">
+  <label for="username">Username:</label>
+  <input type="text" id="username" name="username" required>
+  <span id="usernameError" class="error"></span>
+
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email" required>
+  <span id="emailError" class="error"></span>
+
+  <label for="password">Password:</label>
+  <input type="password" id="password" name="password" required>
+  <span id="passwordError" class="error"></span>
+
+  <button type="button" onclick="validateForm()">Sign Up</button>
+</form>
+
+<script>
+function validateForm() {
+  //Reset errors
+  document.getElementById("usernameError").innerText = "";
+  document.getElementById("emailError").innerText = "";
+  document.getElementById("passwordError").innerText = "";
+
+  // Get input values
+  const username = document.getElementById("username").value;
+  const email = document.getElementById("email").value;
+  const password = document.getElementById("password").value;
+
+  // Validation logic
+  if (username.length < 3) {
+    document.getElementById("usernameError").innerText = "Username must be at least 3 characters long.";
+    return;
+  }
+
+  // Basic email validation
+  const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+  if (!emailRegex.test(email)) {
+    document.getElementById("emailError").innerText = "Invalid email address.";
+    return;
+  }
+
+  if (password.length < 6) {
+    document.getElementById("passwordError").innerText = "Password must be at least 6 characters long.";
+    return;
+  }
+  if (password)
+
+  if (username === 'ravivarma' && password === 'Ravivarma') {
+                alert('Login successful!');
+            } else {
+                alert('Invalid username or password. Please try again.');
+            }
+}
+</script>
+
+</body>
+</html>
