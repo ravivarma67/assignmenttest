@@ -1,0 +1,42 @@
+package java2;
+
+public class switchcase {
+
+	public static void main(String[] args) {
+		int topcompany = 10;
+	    switch (topcompany) {
+	      case 1:
+	        System.out.println("ANARGHYA");
+	        break;
+	      case 2:
+	        System.out.println("TCS");
+	        break;
+	      case 3:
+	        System.out.println("WIPRO");
+	        break;
+	      case 4:
+	        System.out.println("INFOSYS");
+	        break;
+	      case 5:
+	        System.out.println("CAP GEMINI");
+	        break;
+	      case 6:
+	        System.out.println("HCL");
+	        break;
+	      case 7:
+	        System.out.println("IBM");
+	        break;
+	      case 8:
+		        System.out.println("DELOITTE");
+		        break;
+	      case 9:
+		        System.out.println("COGNIZANT");
+		        break;
+	      case 10:
+		        System.out.println("ACCENTURE");
+		        break;
+	    }
+
+	}
+
+}
