@@ -1,0 +1,43 @@
+package java2;
+
+public class varableclass {
+
+		
+		//Create a varableclass
+		
+
+		// Create a age() method
+		public void age( int age) {
+		 System.out.println("Employee Age is:- "+age);
+		}
+
+		// Create a name() method and add a parameter
+		public void name(String name) {
+		 System.out.println("Employee name is:- " + name);
+		//Create a gender() method and add a parameter
+		}
+		public void gender(String gender) {
+			 System.out.println("Employee gender is:- " + gender);
+			 
+			}
+		public void salary(int salary) {
+			 System.out.println("Employee Salary is:- " + salary);
+			
+			}
+		public void domain(String domain) {
+			 System.out.println("Employee Salary is: " + domain);
+			 
+			}
+
+		// Inside main, call the methods on the myCar object
+		public static void main(String[] args) {
+		 varableclass tcs = new varableclass();     // Create a myOffice object
+		 tcs.age(25);      // Call the age() method
+		 tcs.name("Johnson");// Call the name() method
+		 tcs.gender("Male");// Call the gender() method
+		 tcs.salary(45000);//call the salary()method
+		 tcs.domain("Java Developer");//call the domain()method
+
+	}
+
+}
