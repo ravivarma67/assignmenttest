@@ -1,0 +1,75 @@
+package java2;
+
+public class Book {
+ private String title;
+ private String author;
+ private int lSBN;
+ private int pages;
+ private boolean isAvailable;
+      Book (  ){
+    	  
+      }
+	public Book(String title, String author, int lSBN, int pages) {
+		
+		this.title = title;
+		this.author = author;
+		this.lSBN = lSBN;
+		this.pages = pages;
+		this.isAvailable=true;
+	}
+	public Book(String title, String author, int lSBN, int pages, boolean isAvailable) {
+		
+		this.title = title;
+		this.author = author;
+		this.lSBN = lSBN;
+		this.pages = pages;
+		this.isAvailable = isAvailable;
+	}
+	public void borrowbook() {
+		if(isAvailable) {
+			isAvailable=false;
+			System.out.println("book "+title +"is avilale for boorowing");
+		}
+		else
+		{
+			System.out.println("book "+title+" is not available for borrowing");
+		}
+	}
+	public void retuenbook()
+	{
+			if(!isAvailable)
+			{
+				isAvailable=true;
+				System.out.println("book "+title+" is available for returning");
+			}
+			else
+			{
+				System.out.println("book"+title+" is not availale for returning");
+			}
+	}
+	private void dispaly()
+	{
+		System.out.println("title :"+title);
+		System.out.println("author :"+author);
+		System.out.println("iSBN :"+lSBN);
+		System.out.println("pages :"+pages);
+		System.out.println("availble :"+isAvailable);
+		
+	}
+	public static void main(String[] args) {
+		Book book1=new Book("Rajyangam","Ambedhkar",7983625,390);
+		Book  book2=new Book("Rich dad Poor dad","Rober kiyosaki",9363526,999,false);
+		book1.dispaly();
+		System.out.println("======================================================");
+		book2.dispaly();
+		System.out.println("======================================================");
+		Book book3=new Book("The god of small thigs","Arundhati Roy",2873719,590);
+		Book book4=new Book("The white tiger","Aravind adiga",5382717,900,true);
+		book3.dispaly();
+		
+		book1.retuenbook();
+		book1.borrowbook();
+		book2.retuenbook();
+		book2.borrowbook();
+	}
+}
