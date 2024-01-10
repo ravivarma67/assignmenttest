@@ -1,0 +1,99 @@
+package java3;
+public class Employee {
+    private int id;
+    private String firstName;
+    private String lastName;
+    private double salary;
+    private String domain;
+    private String phNo;
+    private String address;
+    private String email;
+
+    // --------------------------------------------------Setter methods----------------------------------------
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
+    }
+
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
+    }
+
+    public void setSalary(double salary) {
+        this.salary = salary;
+    }
+
+    public void setDomain(String domain) {
+        this.domain = domain;
+    }
+
+    public void setPhNo(String phNo) {
+        this.phNo = phNo;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    // ----------------------------------------------------Getter methods------------------------------------------
+    public int getId() {
+        return id;
+    }
+
+    public String getFirstName() {
+        return firstName;
+    }
+
+    public String getLastName() {
+        return lastName;
+    }
+
+    public double getSalary() {
+        return salary;
+    }
+
+    public String getDomain() {
+        return domain;
+    }
+
+    public String getPhNo() {
+        return phNo;
+    }
+
+    public String getAddress() {
+        return address;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public static void main(String[] args) {
+       //---------------------------------------------------data--------------------------------------------------
+        Employee emp = new Employee();
+        emp.setId(27672);
+        emp.setFirstName("Robert");
+        emp.setLastName("Downey");
+        emp.setSalary(93000);
+        emp.setDomain("Developer");
+        emp.setPhNo("+19362639526");
+        emp.setAddress("NewYork, America");
+        emp.setEmail("robert123@gmail.com");
+
+        //----------------------------------------------------output-----------------------------------------------
+        System.out.println("Employee ID: " + emp.getId());
+        System.out.println("Name: " + emp.getFirstName() + " " + emp.getLastName());
+        System.out.println("Salary: $" + emp.getSalary());
+        System.out.println("Domain: " + emp.getDomain());
+        System.out.println("Phone Number: " + emp.getPhNo());
+        System.out.println("Address: " + emp.getAddress());
+        System.out.println("Email: " + emp.getEmail());
+    }
+}
